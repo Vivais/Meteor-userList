@@ -1,7 +1,7 @@
 # Meteor-userList
 simple meteor user list app  
 
-I'm a new meteor user (italian, sorry for my bad english ) and I wont to share my first simple app, a very simple users list
+I'm a new meteor and github user (italian, sorry for my bad english ) and I wont to share my first simple app, a very simple users list
 based on username password login. I use windows so i work a lot to add correct packages. This is the creation app steeps (I don't know if it's the correct way, but ...)  
 
 # for very beginer user like me 
@@ -25,7 +25,7 @@ no errors i hope ...
 open a browser and insert http://localhost:3000  
 
 # packages
-- STOP THE SERVER!!! press CTRL+C on the command line window and press Y (now you need some time ...)
+- <b>STOP THE SERVER!!!</b> press CTRL+C on the command line window and press Y (now you need some time ...)
 C:\yourApps\userList>meteor update --all-packages  
 C:\yourApps\userList>meteor npm install --save babel-runtime  
 C:\yourApps\userList>npm install --save bcryptjs  
@@ -36,7 +36,6 @@ C:\yourApps\userList>meteor add session
 - start meteor server
 C:\yourApps\userList>meteor run  
 - refresh the browse page with F5 key (or wait)
-- If no errors now you have a standard app with login based on email and password. For now don't create users please
 
 # overwrite the files
 - client/main.js

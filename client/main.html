@@ -1,0 +1,24 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAP</title>
+</head>
+<body>
+	<div class="container">
+		{{> loginButtons }}
+		{{> userList }}
+	</div>
+</body>
+
+<template name="userList">
+	<div id="userList"> 
+		{{#if currentUser}}
+			<ul>
+				{{#each user in allUser}}
+					{{#with user}}
+						<li class="user {{selectedClass}}">{{username}}</li>
+					{{/with}}
+				{{/each}}
+			</ul>
+		{{/if}}
+	</div>
+</template>
